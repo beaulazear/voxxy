@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/voxxy/static/css/main.f855e6bc.css",
-    "main.js": "/voxxy/static/js/main.9c5558c1.js",
+    "main.js": "/voxxy/static/js/main.3c1ba51f.js",
     "static/js/453.61a44385.chunk.js": "/voxxy/static/js/453.61a44385.chunk.js",
+    "static/media/mail.png": "/voxxy/static/media/mail.5be3c4bc7825aec14a9f.png",
     "index.html": "/voxxy/index.html",
     "main.f855e6bc.css.map": "/voxxy/static/css/main.f855e6bc.css.map",
-    "main.9c5558c1.js.map": "/voxxy/static/js/main.9c5558c1.js.map",
+    "main.3c1ba51f.js.map": "/voxxy/static/js/main.3c1ba51f.js.map",
     "453.61a44385.chunk.js.map": "/voxxy/static/js/453.61a44385.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.9c5558c1.js"
+    "static/js/main.3c1ba51f.js"
   ]
 }
