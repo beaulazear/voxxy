@@ -1,7 +1,16 @@
+import styled from 'styled-components';
 import './App.css';
 import HeroComponent from './components/HeroComponent';
 import Navbar from './components/Navbar';
 import InfoBoxes from './components/InfoBoxes';
+import WaitlistForm from './components/WaitlistForm';
+import mail from './mail.png';
+
+const FullWidthImage = styled.img`
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove any gaps around the image */
+`;
 
 function App() {
   return (
@@ -9,6 +18,8 @@ function App() {
       <Navbar />
       <HeroComponent />
       <InfoBoxes />
+      <FullWidthImage src={mail} alt="Mail" />
+      <WaitlistForm />
     </div>
   );
 }
