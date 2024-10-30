@@ -8,14 +8,15 @@ const HeroSection = styled.div`
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 100vh;
+  height: 60vh;
   background: linear-gradient(135deg, #6a0dad, #9b19f5);
   color: white;
   padding: 0 20px;
 
   @media (max-width: 768px) {
-    height: 80vh;
+    padding-top: 20px; /* Less padding on smaller screens */
   }
+
 `;
 
 const Title = styled.h1`
