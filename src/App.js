@@ -1,15 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import HeroComponent from './components/HeroComponent';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Voxxy
-        </p>
-      </header>
+      <Navbar />
+      <HeroComponent />
     </div>
   );
 }
